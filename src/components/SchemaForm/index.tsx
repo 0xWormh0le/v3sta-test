@@ -51,7 +51,7 @@ const SchemaForm: React.FC<SchemaFormProps> = ({
     <form aria-label="schema-form" className={className}>
       <p className="text-2xl mb-6">{title}</p>
       <p>Learn how it works:</p>
-      <a href="https://github.com/0xWormh0le/v3sta-test" className="text-blue hover:underline">https://github.com/0xWormh0le/v3sta-test</a>
+      <a href="https://github.com/0xWormh0le/v3sta-test" className="text-blue-900 hover:underline">https://github.com/0xWormh0le/v3sta-test</a>
       {schema.map((fieldSchema, key) => {
         const { onBlur, ...other } = register(fieldSchema.field, validateOption(fieldSchema))
         return (
