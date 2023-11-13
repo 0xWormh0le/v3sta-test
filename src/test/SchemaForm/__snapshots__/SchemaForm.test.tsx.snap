@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SchemaForm renders correctly: initial render 1`] = `
+<form
+  aria-label="schema-form"
+  className="mx-auto mt-12 p-3 w-full max-w-sm"
+>
+  <p
+    className="text-2xl mb-6"
+  >
+    Loan Information
+  </p>
+  <div
+    className="mt-2"
+  >
+    <label
+      className="block"
+      htmlFor="loanAmount"
+    >
+      Loan Amount
+    </label>
+    <input
+      className="p-1 w-full"
+      data-testid="loanAmount"
+      id="loanAmount"
+      name="loanAmount"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="mt-2"
+  >
+    <label
+      className="block"
+      htmlFor="downPaymentAmount"
+    >
+      Down Payment
+    </label>
+    <input
+      className="p-1 w-full"
+      data-testid="downPaymentAmount"
+      id="downPaymentAmount"
+      name="downPaymentAmount"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="mt-2"
+  >
+    <label
+      className="block"
+      htmlFor="firstName"
+    >
+      First Name
+    </label>
+    <input
+      className="p-1 w-full"
+      data-testid="firstName"
+      id="firstName"
+      name="firstName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="mt-2"
+  >
+    <label
+      className="block"
+      htmlFor="lastName"
+    >
+      Last Name
+    </label>
+    <input
+      className="p-1 w-full"
+      data-testid="lastName"
+      id="lastName"
+      name="lastName"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="text"
+    />
+  </div>
+  <div
+    className="mt-2"
+  >
+    <label
+      className="block"
+      htmlFor="birthDate"
+    >
+      Birth Date
+    </label>
+    <input
+      className="p-1 w-full"
+      data-testid="birthDate"
+      id="birthDate"
+      name="birthDate"
+      onBlur={[Function]}
+      onChange={[Function]}
+      type="date"
+    />
+  </div>
+</form>
+`;
