@@ -2,6 +2,8 @@
 Build an application that dynamically generates form inputs from a provided JSON configuration
 and autosaves them to a backing store using the browser’s LocalStorage.
 
+Deployed: https://v3sta-test.vercel.app/
+
 ## Implementation Details
 
 This type of configuration would typically come from an API, but you may load it from a JSON
